@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tic tac toe</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+ table{
+ margin:auto; 
+ border-collapse: collapse;
+ }
+ td {
+ width:100px;
+ text-align:center;
+ font-size:400%;
+ }
+ tr {
+ height:100px;
+ }
+ #tl, #tm, #ml, #mm {
+ border-right: 3px solid black;
+ border-bottom: 3px solid black;
+ }
+ #bl,#bm {
+ border-right: 3px solid black;
+ }
+ #bl,#bm {
+ border-right: 3px solid black;
+ }
+ #tr,#mr {
+ border-bottom: 3px solid black;
+ }
+ 
+
+ </style>
+</head>
+<body>
+<h1 style="text-align:center;"> Tic Tac Toe </h1>
+
+<table>
+<tr><td id="tl" onclick="AddToTL();"></td><td id="tm" onclick="AddToTM();"></td><td id="tr" onclick="AddToTR();"></td></tr>
+<tr><td id="ml" onclick="AddToML();"></td><td id="mm" onclick="AddToMM();"></td><td id="mr" onclick="AddToMR();"></td></tr>
+<tr><td id="bl" onclick="AddToBL();"></td><td id="bm" onclick="AddToBM();"></td><td id="br" onclick="AddToBR();"></td></tr>
+</table>
+<script>
+var xo="o";
+
+function AddToTL()
+{
+   var theCell= document.getElementById("tl");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToTM()
+{
+   var theCell= document.getElementById("tm");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToTR()
+{
+   var theCell= document.getElementById("tr");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToML()
+{
+   var theCell= document.getElementById("ml");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToMM()
+{
+   var theCell= document.getElementById("mm");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToMR()
+{
+   var theCell= document.getElementById("mr");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToBL()
+{
+   var theCell= document.getElementById("bl");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToBM()
+{
+   var theCell= document.getElementById("bm");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+function AddToBR()
+{
+   var theCell= document.getElementById("br");
+   theCell.innerHTML = xo;
+   if (xo=="o"){
+   xo="x";
+   }
+   else
+   {
+   xo="o";
+   }
+}
+</script>
+
+
+</body>
+</html>
